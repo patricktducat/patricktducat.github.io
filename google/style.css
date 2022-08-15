@@ -64,6 +64,40 @@ nav li a {
   text-decoration: none;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input {
+  height: 34px;
+  width: 30em;
+  margin: 20px;
+  border-radius: 50px;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.buttons input,
+.buttons button {
+  padding: 9px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.buttons input:hover,
+.buttons button:hover {
+  border: 1px solid rgb(182, 182, 182);
+}
+
 @media (min-width: 426px) {
   .advert {
     order: 1;
